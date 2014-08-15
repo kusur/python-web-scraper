@@ -1,0 +1,737 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head><title>
+	Somaiya Vidyavihar | Genesis
+</title><link REL="SHORTCUT ICON" href="../../styles/images/favicon.ico" type="image/ico" /><link rel="icon" href="../../styles/images/favicon.ico" type="image/ico" /><link href="../../Styles/site.css" rel="stylesheet" type="text/css" /><link href="../../Styles/thickbox.css" rel="stylesheet" type="text/css" /><link href="../../Styles/jquery-event-jcarousel.css" rel="stylesheet" type="text/css" />
+
+    <!-- Css and js files -->
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.13/jquery-ui.min.js" type="text/javascript"></script>   
+
+    <script>window.jQuery || document.write('<script src="/VidyaVihar/Scripts/jquery-1.6.min.js">\x3C/script><script src="/VidyaVihar/Scripts/jquery-ui-1.8.13.custom.min.js">\x3C/script>')</script>
+    
+    <script type="text/javascript" src='/VidyaVihar/scripts/thickbox.js' ></script>
+    <script type="text/javascript" src='/VidyaVihar/Scripts/lib/default.js'></script>
+    <script type="text/javascript" src='/VidyaVihar/Scripts/json2.js'></script>    
+    <script type="text/javascript" src='/VidyaVihar/Scripts/jquery.jcarousel.min.js' ></script>
+    <script type="text/javascript" src='/VidyaVihar/scripts/helper.slideshow.js' ></script>
+        
+    <script type="text/javascript">
+        var baseUrl = '/VidyaVihar/',IS_DEFAULT_PAGE = false;
+
+        var SiteDTO = { 'ID': '30', 'InstituteID': '17', 'Name': 'K J Somaiya Institute of Management Studies and Research', 'Allias': 'simsr' };
+        var MapSiteDTO = 
+            {  
+            'SITE_BANNER_COLOR'     : '#11336a', 
+            'SITE_HEADING_COLOR'    : '#11336a', 
+            'PARENT_PADDING'        : '5',
+            'PARENT_FONT_SIZE'      : '12',
+            'CHILD_FONT_SIZE'       : '12',
+            'LHSAPUID'              : '0',
+            'FacebookLink'          : 'http://www.facebook.com/simsradmission',
+            'TwitterLink'           : 'http://twitter.com/#!/simsradmission',
+            'YouTubeLink'           : 'http://www.youtube.com/somaiyavidyavihar',
+            'SlideShowID'           : '30',
+            'Position'              : ''
+            }
+        
+    </script>
+
+    <script type="text/javascript" src='/VidyaVihar/scripts/app/siteLayout.js' ></script>
+
+    
+    <meta name="keywords" content="Genesis of simsr" /><meta name="description" content="Genesis of simsr" />
+
+    <link href='/VidyaVihar/Styles/innerpage.css' rel="stylesheet" type="text/css" />
+    <link href='/VidyaVihar/Styles/Applications.css' rel="stylesheet" type="text/css" />
+
+    <script src='/VidyaVihar/scripts/app/page-controller.js' type="text/javascript"></script>
+
+</head>
+<body>
+    <form method="post" action="genesis" id="form1">
+<div class="aspNetHidden">
+<input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="" />
+<input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="" />
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUKMTk1MjU5NTc2OA9kFgJmD2QWAgIDD2QWCgIDD2QWAgICDxQrAAIPFgQeC18hRGF0YUJvdW5kZx4LXyFJdGVtQ291bnRmZGRkAgUPZBYEAgEPFgIeCWlubmVyaHRtbAWXCTx1bD48bGkgc3R5bGU9ICd3aWR0aDoxMDBweDsgZm9udC1zaXplOjEycHg7bWFyZ2luLXJpZ2h0OjVweDsnID48YSBocmVmPScvVmlkeWFWaWhhci9zaW1zci9BYm91dF9Vcy9nZW5lc2lzJyB0YXJnZXQ9J19zZWxmJz5BYm91dCBVczwvYT48L2xpPjxsaSBzdHlsZT0gJ3dpZHRoOjEwMHB4OyBmb250LXNpemU6MTJweDttYXJnaW4tcmlnaHQ6NXB4OycgPjxhIGhyZWY9Jy9WaWR5YVZpaGFyL3NpbXNyL1Byb2dyYW1tZXMvRG9jdG9yYWwnIHRhcmdldD0nX3NlbGYnPlByb2dyYW1tZXM8L2E+PC9saT48bGkgc3R5bGU9ICd3aWR0aDoxMDJweDsgZm9udC1zaXplOjEycHg7bWFyZ2luLXJpZ2h0OjVweDsnID48YSBocmVmPScvVmlkeWFWaWhhci9zaW1zci9BZG1pc3Npb24vRG9jdG9yYWwnIHRhcmdldD0nX3NlbGYnPkFkbWlzc2lvbjwvYT48L2xpPjxsaSBzdHlsZT0gJ3dpZHRoOjE2MHB4OyBmb250LXNpemU6MTJweDttYXJnaW4tcmlnaHQ6NXB4OycgPjxhIGhyZWY9Jy9WaWR5YVZpaGFyL3NpbXNyL01EUF9Db25zdWx0YW5jeS9NYW5hZ2VtZW50X0RldmVsb3BtZW50X1Byb2dyYW0nIHRhcmdldD0nX3NlbGYnPk1EUCAmIENvbnN1bHRhbmN5PC9hPjwvbGk+PGxpIHN0eWxlPSAnd2lkdGg6OTdweDsgZm9udC1zaXplOjEycHg7bWFyZ2luLXJpZ2h0OjVweDsnID48YSBocmVmPScvVmlkeWFWaWhhci9zaW1zci9QbGFjZW1lbnRzL0V4ZWN1dGl2ZV9QbGFjZW1lbnRzJyB0YXJnZXQ9J19zZWxmJz5QbGFjZW1lbnRzPC9hPjwvbGk+PGxpIHN0eWxlPSAnd2lkdGg6MTAwcHg7IGZvbnQtc2l6ZToxMnB4O21hcmdpbi1yaWdodDo1cHg7JyA+PGEgaHJlZj0nL1ZpZHlhVmloYXIvc2ltc3IvUmVzZWFyY2hfYW5kX1B1Yi9Cb29rcycgdGFyZ2V0PSdfc2VsZic+UmVzLiAmIFB1Yi48L2E+PC9saT48bGkgc3R5bGU9ICd3aWR0aDo5N3B4OyBmb250LXNpemU6MTJweDttYXJnaW4tcmlnaHQ6NXB4OycgPjxhIGhyZWY9Jy9WaWR5YVZpaGFyL3NpbXNyL0FsdW1uaV9BY3Rpdml0aWVzLycgdGFyZ2V0PSdfc2VsZic+QWx1bW5pIEFjdC48L2E+PC9saT48bGkgc3R5bGU9ICd3aWR0aDo2NXB4OyBmb250LXNpemU6MTJweDsnID48YSBocmVmPScvVmlkeWFWaWhhci9zaW1zci9jb25uZWN0cy9ldmVudHNfYWxsL3VwX2NvbWluZycgdGFyZ2V0PSdfc2VsZic+Q29ubmVjdDwvYT48L2xpPjwvdWw+ZAIDDxYCHwIFuzE8ZGl2IGNsYXNzPSdTdWJNZW51Q2hpbGQnPjx1bD48bGkgc3R5bGU9ICd3aWR0aDoxMDBweDsgZm9udC1zaXplOjEycHg7bWFyZ2luLXJpZ2h0OjVweDsnID48YSBocmVmPScvVmlkeWFWaWhhci9zaW1zci9BYm91dF9Vcy9nZW5lc2lzJyB0YXJnZXQ9J19zZWxmJz5HZW5lc2lzPC9hPjwvbGk+PGxpIHN0eWxlPSAnd2lkdGg6MTAwcHg7IGZvbnQtc2l6ZToxMnB4O21hcmdpbi1yaWdodDo1cHg7JyA+PGEgaHJlZj0nL1ZpZHlhVmloYXIvc2ltc3IvQWJvdXRfVXMvVGhlX0luc3RpdHV0ZScgdGFyZ2V0PSdfc2VsZic+VGhlIEluc3RpdHV0ZTwvYT48L2xpPjxsaSBzdHlsZT0gJ3dpZHRoOjEwMHB4OyBmb250LXNpemU6MTJweDttYXJnaW4tcmlnaHQ6NXB4OycgPjxhIGhyZWY9Jy9WaWR5YVZpaGFyL3NpbXNyL0Fib3V0X1VzL1Zpc2lvbl9hbmRfTWlzc2lvbicgdGFyZ2V0PSdfc2VsZic+VmlzaW9uLE1pc3Npb248L2E+PC9saT48bGkgc3R5bGU9ICd3aWR0aDoxMDBweDsgZm9udC1zaXplOjEycHg7bWFyZ2luLXJpZ2h0OjVweDsnID48YSBocmVmPScvVmlkeWFWaWhhci9zaW1zci9hY2FkZW1pYy9mYWN1bHR5L2RpcmVjdG9yeS8wP2xhbmc9JyB0YXJnZXQ9J19zZWxmJz5GYWN1bHR5PC9hPjwvbGk+PGxpIHN0eWxlPSAnd2lkdGg6MTAwcHg7IGZvbnQtc2l6ZToxMnB4O21hcmdpbi1yaWdodDo1cHg7JyA+PGEgaHJlZj0nL1ZpZHlhVmloYXIvc2ltc3IvQWJvdXRfVXMvT3JnYW5pemF0aW9uX2FuZF9Hb3Zlcm5hbmNlJyB0YXJnZXQ9J19zZWxmJz5PcmcuIGFuZCBHb3YuPC9hPjwvbGk+PGxpIHN0eWxlPSAnd2lkdGg6MTAwcHg7IGZvbnQtc2l6ZToxMnB4O21hcmdpbi1yaWdodDo1cHg7JyA+PGEgaHJlZj0nL1ZpZHlhVmloYXIvc2ltc3IvQWJvdXRfVXMvSW50ZXJuYXRpb25hbF9MaW5rYWdlcycgdGFyZ2V0PSdfc2VsZic+SW50LiBMaW5rYWdlczwvYT48L2xpPjxsaSBzdHlsZT0gJ3dpZHRoOjEwMHB4OyBmb250LXNpemU6MTJweDttYXJnaW4tcmlnaHQ6NXB4OycgPjxhIGhyZWY9Jy9WaWR5YVZpaGFyL3NpbXNyL0Fib3V0X1VzL0xpZmUgYXQgU0lNU1InIHRhcmdldD0nX3NlbGYnPkxpZmUgYXQgU0lNU1I8L2E+PC9saT48L3VsPjwvZGl2PjxkaXYgY2xhc3M9J1N1Yk1lbnVDaGlsZCc+PHVsPjxsaSBzdHlsZT0gJ3dpZHRoOjEwMHB4OyBmb250LXNpemU6MTJweDttYXJnaW4tcmlnaHQ6NXB4OycgPjxhIGhyZWY9Jy9WaWR5YVZpaGFyL3NpbXNyL1Byb2dyYW1tZXMvRG9jdG9yYWwnIHRhcmdldD0nX3NlbGYnPkRvY3RvcmFsPC9hPjwvbGk+PGxpIHN0eWxlPSAnd2lkdGg6MTAwcHg7IGZvbnQtc2l6ZToxMnB4O21hcmdpbi1yaWdodDo1cHg7JyA+PGEgaHJlZj0nL1ZpZHlhVmloYXIvc2ltc3IvUHJvZ3JhbW1lcy9QR0RNX0V4ZWMnIHRhcmdldD0nX3NlbGYnPlBHRE0oRXhlYyk8L2E+PC9saT48bGkgc3R5bGU9ICd3aWR0aDoxMDBweDsgZm9udC1zaXplOjEycHg7bWFyZ2luLXJpZ2h0OjVweDsnID48YSBocmVmPScvVmlkeWFWaWhhci9zaW1zci9Qcm9ncmFtbWVzL0ZUX1BHRE0nIHRhcmdldD0nX3NlbGYnPkZUIFBHRE08L2E+PC9saT48bGkgc3R5bGU9ICd3aWR0aDoxMDBweDsgZm9udC1zaXplOjEycHg7bWFyZ2luLXJpZ2h0OjVweDsnID48YSBocmVmPScvVmlkeWFWaWhhci9zaW1zci9Qcm9ncmFtbWVzL0ZUX01BU1RFUicgdGFyZ2V0PSdfc2VsZic+RlQgTUFTVEVSUzwvYT48L2xpPjxsaSBzdHlsZT0gJ3dpZHRoOjEwMHB4OyBmb250LXNpemU6MTJweDttYXJnaW4tcmlnaHQ6NXB4OycgPjxhIGhyZWY9Jy9WaWR5YVZpaGFyL3NpbXNyL1Byb2dyYW1tZXMvUEFSVF9USU1FX01BU1RFUlMnIHRhcmdldD0nX3NlbGYnPlBBUlQgVElNRSBNQVNURVJTPC9hPjwvbGk+PC91bD48L2Rpdj48ZGl2IGNsYXNzPSdTdWJNZW51Q2hpbGQnPjx1bD48bGkgc3R5bGU9ICd3aWR0aDoxMDJweDsgZm9udC1zaXplOjEycHg7bWFyZ2luLXJpZ2h0OjVweDsnID48YSBocmVmPScvVmlkeWFWaWhhci9zaW1zci9BZG1pc3Npb24vRG9jdG9yYWwnIHRhcmdldD0nX3NlbGYnPkRvY3RvcmFsPC9hPjwvbGk+PGxpIHN0eWxlPSAnd2lkdGg6MTAycHg7IGZvbnQtc2l6ZToxMnB4O21hcmdpbi1yaWdodDo1cHg7JyA+PGEgaHJlZj0nL1ZpZHlhVmloYXIvc2ltc3IvQWRtaXNzaW9uL1BHRE1fRXhlYycgdGFyZ2V0PSdfc2VsZic+UEdETShFeGVjKTwvYT48L2xpPjxsaSBzdHlsZT0gJ3dpZHRoOjEwMnB4OyBmb250LXNpemU6MTJweDttYXJnaW4tcmlnaHQ6NXB4OycgPjxhIGhyZWY9Jy9WaWR5YVZpaGFyL3NpbXNyL0FkbWlzc2lvbi9GVF9QR0RNJyB0YXJnZXQ9J19zZWxmJz5GVCBQR0RNPC9hPjwvbGk+PGxpIHN0eWxlPSAnd2lkdGg6MTAycHg7IGZvbnQtc2l6ZToxMnB4O21hcmdpbi1yaWdodDo1cHg7JyA+PGEgaHJlZj0nL1ZpZHlhVmloYXIvc2ltc3IvQWRtaXNzaW9uL0ZUX01BU1RFUlMnIHRhcmdldD0nX3NlbGYnPkZUIE1BU1RFUlM8L2E+PC9saT48bGkgc3R5bGU9ICd3aWR0aDoxMDJweDsgZm9udC1zaXplOjEycHg7bWFyZ2luLXJpZ2h0OjVweDsnID48YSBocmVmPScvVmlkeWFWaWhhci9zaW1zci9BZG1pc3Npb24vUEFSVF9USU1FX01BU1RFUlMnIHRhcmdldD0nX3NlbGYnPlBBUlQgVElNRSBNQVNURVJTPC9hPjwvbGk+PC91bD48L2Rpdj48ZGl2IGNsYXNzPSdTdWJNZW51Q2hpbGQnPjx1bD48bGkgc3R5bGU9ICd3aWR0aDoxNjBweDsgZm9udC1zaXplOjEycHg7bWFyZ2luLXJpZ2h0OjVweDsnID48YSBocmVmPScvVmlkeWFWaWhhci9zaW1zci9NRFBfQ29uc3VsdGFuY3kvTWFuYWdlbWVudF9EZXZlbG9wbWVudF9Qcm9ncmFtJyB0YXJnZXQ9J19zZWxmJz5NRFA8L2E+PC9saT48bGkgc3R5bGU9ICd3aWR0aDoxNjBweDsgZm9udC1zaXplOjEycHg7bWFyZ2luLXJpZ2h0OjVweDsnID48YSBocmVmPScvVmlkeWFWaWhhci9zaW1zci9NRFBfQ29uc3VsdGFuY3kvQ29uc3VsdGFuY3lfU2VydmljZXMnIHRhcmdldD0nX3NlbGYnPkNvbnN1bHRhbmN5IFNlcnZpY2VzPC9hPjwvbGk+PC91bD48L2Rpdj48ZGl2IGNsYXNzPSdTdWJNZW51Q2hpbGQnPjx1bD48bGkgc3R5bGU9ICd3aWR0aDo5N3B4OyBmb250LXNpemU6MTJweDttYXJnaW4tcmlnaHQ6NXB4OycgPjxhIGhyZWY9Jy9WaWR5YVZpaGFyL3NpbXNyL1BsYWNlbWVudHMvRXhlY3V0aXZlX1BsYWNlbWVudHMnIHRhcmdldD0nX3NlbGYnPkV4ZWN1dGl2ZTwvYT48L2xpPjxsaSBzdHlsZT0gJ3dpZHRoOjk3cHg7IGZvbnQtc2l6ZToxMnB4O21hcmdpbi1yaWdodDo1cHg7JyA+PGEgaHJlZj0nL1ZpZHlhVmloYXIvc2ltc3IvUGxhY2VtZW50cy9TdW1tZXJfUGxhY2VtZW50cycgdGFyZ2V0PSdfc2VsZic+U3VtbWVyPC9hPjwvbGk+PGxpIHN0eWxlPSAnd2lkdGg6OTdweDsgZm9udC1zaXplOjEycHg7bWFyZ2luLXJpZ2h0OjVweDsnID48YSBocmVmPScvVmlkeWFWaWhhci9zaW1zci9QbGFjZW1lbnRzL1BsYWNlbWVudF8yMDEzJyB0YXJnZXQ9J19zZWxmJz5QbGFjZW1lbnQgLSAyMDEzPC9hPjwvbGk+PC91bD48L2Rpdj48ZGl2IGNsYXNzPSdTdWJNZW51Q2hpbGQnPjx1bD48bGkgc3R5bGU9ICd3aWR0aDoxMDBweDsgZm9udC1zaXplOjEycHg7bWFyZ2luLXJpZ2h0OjVweDsnID48YSBocmVmPScvVmlkeWFWaWhhci9zaW1zci9SZXNlYXJjaF9hbmRfUHViL0Jvb2tzJyB0YXJnZXQ9J19zZWxmJz5Cb29rczwvYT48L2xpPjxsaSBzdHlsZT0gJ3dpZHRoOjEwMHB4OyBmb250LXNpemU6MTJweDttYXJnaW4tcmlnaHQ6NXB4OycgPjxhIGhyZWY9Jy9WaWR5YVZpaGFyL3NpbXNyL1Jlc2VhcmNoX2FuZF9QdWIvQ2FzZXNfUHVibGlzaGVkJyB0YXJnZXQ9J19zZWxmJz5DYXNlcyBQdWJsaXNoZWQ8L2E+PC9saT48bGkgc3R5bGU9ICd3aWR0aDoxMDBweDsgZm9udC1zaXplOjEycHg7bWFyZ2luLXJpZ2h0OjVweDsnID48YSBocmVmPScvVmlkeWFWaWhhci9zaW1zci9SZXNlYXJjaF9hbmRfUHViL1BhcGVyc19QcmVzZW50ZWQnIHRhcmdldD0nX3NlbGYnPlBhcGVycyBQcmVzZW50ZWQ8L2E+PC9saT48bGkgc3R5bGU9ICd3aWR0aDoxMDBweDsgZm9udC1zaXplOjEycHg7bWFyZ2luLXJpZ2h0OjVweDsnID48YSBocmVmPScvVmlkeWFWaWhhci9zaW1zci9SZXNlYXJjaF9hbmRfUHViL1Jlc2VhcmNoJyB0YXJnZXQ9J19zZWxmJz5SZXNlYXJjaDwvYT48L2xpPjxsaSBzdHlsZT0gJ3dpZHRoOjEwMHB4OyBmb250LXNpemU6MTJweDttYXJnaW4tcmlnaHQ6NXB4OycgPjxhIGhyZWY9Jy9WaWR5YVZpaGFyL3NpbXNyL1Jlc2VhcmNoX2FuZF9QdWIvU1lORVJHWScgdGFyZ2V0PSdfc2VsZic+U1lORVJHWTwvYT48L2xpPjxsaSBzdHlsZT0gJ3dpZHRoOjEwMHB4OyBmb250LXNpemU6MTJweDttYXJnaW4tcmlnaHQ6NXB4OycgPjxhIGhyZWY9Jy9WaWR5YVZpaGFyL3NpbXNyL1Jlc2VhcmNoX2FuZF9QdWIvQlBSJyB0YXJnZXQ9J19zZWxmJz5CUFI8L2E+PC9saT48L3VsPjwvZGl2PjxkaXYgY2xhc3M9J1N1Yk1lbnVDaGlsZCc+PHVsPjxsaSBzdHlsZT0gJ3dpZHRoOjk3cHg7IGZvbnQtc2l6ZToxMnB4O21hcmdpbi1yaWdodDo1cHg7JyA+PGEgaHJlZj0nL1ZpZHlhVmloYXIvc2ltc3IvQWx1bW5pX0FjdGl2aXRpZXMvQWx1bW5pX0FjdGl2aXRpZXNfc2ltc3InIHRhcmdldD0nX3NlbGYnPkFsdW1uaSBBY3R2PC9hPjwvbGk+PGxpIHN0eWxlPSAnd2lkdGg6OTdweDsgZm9udC1zaXplOjEycHg7bWFyZ2luLXJpZ2h0OjVweDsnID48YSBocmVmPScvVmlkeWFWaWhhci9zaW1zci9BbHVtbmlfQWN0aXZpdGllcy9BbHVtbmlfQ29tbScgdGFyZ2V0PSdfc2VsZic+QWx1bW5pIENvbW08L2E+PC9saT48bGkgc3R5bGU9ICd3aWR0aDo5N3B4OyBmb250LXNpemU6MTJweDttYXJnaW4tcmlnaHQ6NXB4OycgPjxhIGhyZWY9Jy9WaWR5YVZpaGFyL3NpbXNyL0FsdW1uaV9BY3Rpdml0aWVzL0Nvbm5lY3Qgd2l0aCB1cycgdGFyZ2V0PSdfc2VsZic+Q29ubmVjdCB1czwvYT48L2xpPjxsaSBzdHlsZT0gJ3dpZHRoOjk3cHg7IGZvbnQtc2l6ZToxMnB4O21hcmdpbi1yaWdodDo1cHg7JyA+PGEgaHJlZj0nL1ZpZHlhVmloYXIvc2ltc3IvQWx1bW5pX0FjdGl2aXRpZXMvUmVnaXN0ZXInIHRhcmdldD0nX3NlbGYnPlJlZ2lzdGVyPC9hPjwvbGk+PC91bD48L2Rpdj48ZGl2IGNsYXNzPSdTdWJNZW51Q2hpbGQnPjx1bD48bGkgc3R5bGU9ICd3aWR0aDo2NXB4OyBmb250LXNpemU6MTJweDsnID48YSBocmVmPScvVmlkeWFWaWhhci9zaW1zci9jb25uZWN0cy9ldmVudHNfYWxsL3VwX2NvbWluZycgdGFyZ2V0PSdfc2VsZic+RXZlbnRzPC9hPjwvbGk+PGxpIHN0eWxlPSAnd2lkdGg6NjVweDsgZm9udC1zaXplOjEycHg7JyA+PGEgaHJlZj0nL1ZpZHlhVmloYXIvc2ltc3IvY29tbW9uL2RpcmVjdG9yaWVzJyB0YXJnZXQ9J19zZWxmJz5EaXJlY3RvcmllczwvYT48L2xpPjxsaSBzdHlsZT0gJ3dpZHRoOjY1cHg7IGZvbnQtc2l6ZToxMnB4OycgPjxhIGhyZWY9Jy9WaWR5YVZpaGFyL3NpbXNyL2Nvbm5lY3RzL2V2ZW50c19hbGwvdXBfY29taW5nL0FudGlfUmFnZ2luZycgdGFyZ2V0PSdfc2VsZic+QW50aSBSYWdnaW5nPC9hPjwvbGk+PGxpIHN0eWxlPSAnd2lkdGg6NjVweDsgZm9udC1zaXplOjEycHg7JyA+PGEgaHJlZj0nL1ZpZHlhVmloYXIvc2ltc3IvY29ubmVjdHMvZXZlbnRzX2FsbC91cF9jb21pbmcvR3JpZXZhbmNlcycgdGFyZ2V0PSdfc2VsZic+R3JpZXZhbmNlczwvYT48L2xpPjxsaSBzdHlsZT0gJ3dpZHRoOjY1cHg7IGZvbnQtc2l6ZToxMnB4OycgPjxhIGhyZWY9Jy9WaWR5YVZpaGFyL3NpbXNyL2Nvbm5lY3RzL2V2ZW50c19hbGwvdXBfY29taW5nL1dvbWVuIEVtcG93ZXJtZW50JyB0YXJnZXQ9J19zZWxmJz5Xb21lbiBFbXBvd2VybWVudDwvYT48L2xpPjxsaSBzdHlsZT0gJ3dpZHRoOjY1cHg7IGZvbnQtc2l6ZToxMnB4OycgPjxhIGhyZWY9Jy9WaWR5YVZpaGFyL3NpbXNyL2Nvbm5lY3RzL2dhbGxlcnkvYWxidW0vYWxsJyB0YXJnZXQ9J19zZWxmJz5HYWxsZXJ5PC9hPjwvbGk+PGxpIHN0eWxlPSAnd2lkdGg6NjVweDsgZm9udC1zaXplOjEycHg7JyA+PGEgaHJlZj0nL1ZpZHlhVmloYXIvc2ltc3IvYWNhZGVtaWMvcHJvZ3JhbXMvZW4nIHRhcmdldD0nX3NlbGYnPlByb2dyYW1zPC9hPjwvbGk+PGxpIHN0eWxlPSAnd2lkdGg6NjVweDsgZm9udC1zaXplOjEycHg7JyA+PGEgaHJlZj0nL1ZpZHlhVmloYXIvc2ltc3IvYWNhZGVtaWMvZGVwYXJ0bWVudCcgdGFyZ2V0PSdfc2VsZic+RGVwYXJ0bWVudHM8L2E+PC9saT48bGkgc3R5bGU9ICd3aWR0aDo2NXB4OyBmb250LXNpemU6MTJweDsnID48YSBocmVmPScvVmlkeWFWaWhhci9zaW1zci9jb25uZWN0cy93aGF0c19oYXBwZW5pbmcvY2FyZWVycycgdGFyZ2V0PSdfc2VsZic+Q2FyZWVyczwvYT48L2xpPjwvdWw+PC9kaXY+ZAIHD2QWBAIBDxYCHwIFKzxhIGhyZWY9JyMnIGlkPSdidG5fYnJlYWRUaXRsZSc+R2VuZXNpczwvYT5kAgMPFgIfAgUJPHVsPjwvdWw+ZAIJD2QWCGYPZBYGZg9kFgICAQ8WBB4Dc3JjBTAvVmlkeWFWaWhhci9tZWRpYS9pbWFnZXMvU1ZWX0RFRkFVTFRfOTAweDIwMC5qcGceA2FsdAUTU1ZWX0RFRkFVTFRfOTAweDIwMGQCAg8PFgIeB1Zpc2libGVnZBYGAgEPFgQfAwVFL1ZpZHlhVmloYXIvbWVkaWEvaW1hZ2VzL2Nyb3AzM2RlOWYzNi03Y2JlLTRjZDctODNmMS1mM2JhMWM4Y2U1N2UuanBnHwQFOEsgSiBTb21haXlhIEluc3RpdHV0ZSBvZiBNYW5hZ2VtZW50IFN0dWRpZXMgYW5kIFJlc2VhcmNoZAIDDxYEHwMFNi9WaWR5YVZpaGFyL21lZGlhL2ltYWdlcy9TVlZfU29tYWl5YV9TSU1TUl9HZW5lc2lzLmpwZx8EBRlTVlZfU29tYWl5YV9TSU1TUl9HZW5lc2lzZAIFDxYCHwIFOEsgSiBTb21haXlhIEluc3RpdHV0ZSBvZiBNYW5hZ2VtZW50IFN0dWRpZXMgYW5kIFJlc2VhcmNoZAIED2QWAgIBDxYEHwMFMC9WaWR5YVZpaGFyL21lZGlhL2ltYWdlcy9TVlZfREVGQVVMVF85MDB4MTUwLmpwZx8EBRNTVlZfREVGQVVMVF85MDB4MTUwZAIBD2QWAmYPZBYCZg9kFgJmDxQrAAIPFgQfAGcfAQIDZGQWAmYPZBYGAgEPZBYCZg8VBAIxOAlTZXAsIDIwMTRnL1ZpZHlhVmloYXIvc2ltc3IvY29ubmVjdHMvZXZlbnRzLzM3NC9tYXJrZXRpbmdfYW5hbHl0aWNzX2Zvcl9kZXZlbG9waW5nX2VmZmVjdGl2ZV9tYXJrZXRpbmdfc3RyYXRlZ2llczdNYXJrZXRpbmcgQW5hbHl0aWNzIGZvciBEZXZlbG9waW5nIEVmZmVjdGl2ZSBNYXJrZS4uLi4uZAICD2QWAmYPFQQCMjIJSmFuLCAyMDE1QS9WaWR5YVZpaGFyL3NpbXNyL2Nvbm5lY3RzL2V2ZW50cy8zNDgvaW50ZXJuYXRpb25hbF9ocl9jb25mZXJlbmNlG0ludGVybmF0aW9uYWwgSFIgQ29uZmVyZW5jZWQCAw9kFgJmDxUEAjI0CUZlYiwgMjAxNUwvVmlkeWFWaWhhci9zaW1zci9jb25uZWN0cy9ldmVudHMvMzcyLzEwdGhfc2ltc3JfZ2xvYmFsX21hcmtldGluZ19jb25mZXJlbmNlJjEwdGggU0lNU1IgR2xvYmFsIE1hcmtldGluZyBDb25mZXJlbmNlZAICD2QWAmYPZBYCAgEPFgIfAgXuITxwPgoJJm5ic3A7PC9wPgo8cD4KCVNvbWFpeWEgVmlkeWF2aWhhciB3YXMgZXN0YWJsaXNoZWQgYnkgUGFkbWFiaHVzaGFuIExhdGUgU2hyaSBLIEogU29tYWl5YSBpbiAxOTU5LiBBbiBFbnRyZXByZW5ldXIsIFBoaWxhbnRocm9waXN0IGFuZCBhIFZpc2lvbmFyeSwgaGUgZmlybWx5IGJlbGlldmVkIHRoYXQgbW9kZXJuIGVkdWNhdGlvbiBoYWQgdG8gaGF2ZSBpdHMgcm9vdHMgaW4gc3Ryb25nIHZhbHVlcy4gVGhpcyB1bmRlcmx5aW5nIHRoZW1lIGFuZCBsZWdhY3kgb2YgU29tYWl5YSBWaWR5YXZpaGFyIHdhcyBjb250aW51ZWQgYW5kIHN0cmVuZ3RoZW5lZCBieSB0aGUgbGF0ZSBEciBTIEsgU29tYWl5YS48YnIgLz4KCTxiciAvPgoJU29tYWl5YSBWaWR5YXZpaGFyIGFpbXMgdG8gcHJvdmlkZSBmb3IgaXRzIHN0dWRlbnRzLCBtZWFuaW5nZnVsIGFuZCByZWxldmFudCBlZHVjYXRpb24gdGhhdCBlbXBoYXNpemVzIGJvdGggdGhlIGxpYmVyYWwgYW5kIHByb2Zlc3Npb25hbCBhc3BlY3RzIG9mIGhpZ2hlciBlZHVjYXRpb24sIHN0ZWVwZWQgaW4gcmljaCBJbmRpYW4gQ3VsdHVyZSBhbmQgaGVyaXRhZ2UgYW5kIHJvb3RlZCBpbiB1bml2ZXJzYWwgcmVsaWdpb3VzIHBoaWxvc29waGllcyBvZiB0aGUgd29ybGQuPC9wPgo8cD4KCTxiciAvPgoJV2l0aGluIHRoaXMgY29udGV4dCwgU29tYWl5YSBWaWR5YXZpaGFyIHByb3ZpZGVzIGVkdWNhdGlvbmFsIG9wcG9ydHVuaXRpZXMgdG8gYWxsIHF1YWxpZmllZCBzdHVkZW50cyB0byBkaXNjb3ZlciBhbmQgZGlzc2VtaW5hdGUga25vd2xlZGdlIGluIG9yZGVyIHRvIHNlcnZlIGNvbW11bml0aWVzIGFyb3VuZCB0aGUgd29ybGQuIFdlIGZpcm1seSBiZWxpZXZlIGluIGltcGFydGluZyBlZHVjYXRpb24gdGhhdCB0ZWFjaGVzIGhvdyB0byBsaXZlIGFuZCBob3cgdG8gbWFrZSBhIGxpdmluZy48L3A+CjxwPgoJJm5ic3A7PC9wPgo8cD4KCUFzIGEgY2VudHJlIG9mIGxlYXJuaW5nIGRlZGljYXRlZCB0byBlZHVjYXRpb24sIHJlc2VhcmNoIGFuZCBzZXJ2aWNlLCBTb21haXlhIFZpZHlhdmloYXIgY29tYmluZXMgZXhwZXJpZW50aWFsIGxlYXJuaW5nIHdpdGggcmlnb3JvdXMgc2Nob2xhcnNoaXAgaW4gYWxsIG91ciBlZHVjYXRpb25hbCBwcm9ncmFtcyB0byBwcm9kdWNlIGVkdWNhdGVkIGxlYXJuZXJzIHdobyBhcmUgYXdha2UgdG8gbmV3LCBjaGFsbGVuZ2luZyBwb3NzaWJpbGl0aWVzLiBXZSBidWlsZCBvbiBvdXIgZXhpc3Rpbmcgc3RyZW5ndGhzLCBpbmNsdWRpbmcgZW5naW5lZXJpbmcsIGJpb21lZGljYWwgc2NpZW5jZXMsIGFuZCBwcm9mZXNzaW9uYWwgZWR1Y2F0aW9uLCBhbmQgcHVyc3VlIHByb2R1Y3RpdmUgcGFydG5lcnNoaXBzIHdpdGggb3RoZXIgb3V0c3RhbmRpbmcgaW5zdGl0dXRpb25zLjwvcD4KPHA+CgkmbmJzcDs8L3A+CjxwPgoJV2UgYXJlIGNvbW1pdHRlZCwgZm9yZW1vc3QgdG8gYWNhZGVtaWMgZXhjZWxsZW5jZSBhbmQgaW50ZWxsZWN0dWFsIGNvbXBldGVuY2UuIEZyZWVkb20gb2YgZXhwcmVzc2lvbiBhbmQgaW5xdWlyeSwgZXhjaGFuZ2Ugb2YgaWRlYXMsIGN1bHR1cmFsIGFjdGl2aXRpZXMsIGludGVuc2l2ZSBjbGFzc3Jvb20gaW5zdHJ1Y3Rpb24sIGFuZCBudW1lcm91cyBpbmZvcm1hbCBldmVudHMgb2YgdGhlIFNvbWFpeWEgVmlkeWF2aWhhciBjb21tdW5pdHkgY29tYmluZSB0byBlbnN1cmUgdGhhdCBlYWNoIHN0dWRlbnQgcmVjZWl2ZXMgYSB0aG9yb3VnaCBlZHVjYXRpb24gaW4gdHVuZSB3aXRoIHRoZSBnbG9iYWwgcmVhbGl0aWVzIG9mIGEgcmFwaWRseSBldm9sdmluZyB3b3JsZC48L3A+CjxwPgoJJm5ic3A7PC9wPgo8cD4KCVNvbWFpeWEgVmlkeWF2aWhhciByZWNvZ25pemVzIHRoYXQgZWR1Y2F0aW9uIGlzIGF0dGFpbmVkLCBpbiBwYXJ0LCB0aHJvdWdoIHRoZSBhY3Rpdml0aWVzIG9mIHRoZSBzdHVkZW50cyB0aGVtc2VsdmVzLiBJdCBzdHJpdmVzIHRvIHByb3ZpZGUgYW5kIG1haW50YWluIGEgY29ycHMgb2Ygc2Nob2xhcnMsIGxlY3R1cmVycywgYW5kIGVkdWNhdG9ycyBkZWRpY2F0ZWQgdG86PC9wPgo8cD4KCSZuYnNwOzwvcD4KPHVsPgoJPGxpPgoJCVByb3ZpZGUgYSB3ZWxsLXJvdW5kZWQgbGliZXJhbCBhcnRzIGVkdWNhdGlvbiB3aXRoIGEgY29uY2VudHJhdGlvbiBpbiBlaXRoZXIgdGhlIHNjaWVuY2UsIHRoZSBodW1hbml0aWVzLCBvciB0aGUgcHJvZmVzc2lvbnM8L2xpPgoJPGxpPgoJCVByb3ZpZGUgc2VydmljZSB0byB0aGUgY29tbXVuaXRpZXMgYnkgaW5jcmVhc2luZyB0aGVpciBhYmlsaXR5IHRvIG1ha2UgcHJhY3RpY2FsIGFwcGxpY2F0aW9uIG9mIGtub3dsZWRnZTwvbGk+Cgk8bGk+CgkJRGV2ZWxvcCBjb25jZXB0dWFsIHRoaW5raW5nIGFiaWxpdHkgYW5kIG51cnR1cmUgdGhlIGlucXVpcmluZyBtaW5kIG9mIGVhY2ggc3R1ZGVudDwvbGk+Cgk8bGk+CgkJRW5jb3VyYWdlIG9wdGltdW0gcGh5c2ljYWwgZGV2ZWxvcG1lbnQgYW5kIHRoZSBzYWZlZ3VhcmRpbmcgb2YgaGVhbHRoPC9saT4KCTxsaT4KCQlQcm92aWRlIGFuIGltcG9ydGFudCBlbmdpbmUgZm9yIHJlc2VhcmNoIGFuZCBlY29ub21pYyBkZXZlbG9wbWVudDwvbGk+Cgk8bGk+CgkJT2ZmZXIgYW4gYXJyYXkgb2YgbWFzdGVyJnJzcXVvO3MgYW5kIGRvY3RvcmFsIHByb2dyYW1zIGluIGFyZWFzIG9mIGltcG9ydGFuY2UgdG8gdGhlIHNvY2lhbCBhbmQgZWNvbm9taWMgZGV2ZWxvcG1lbnQgb2YgdGhlIHNvY2lldHkgYW5kIHRoZSBjb21tdW5pdGllczwvbGk+Cgk8bGk+CgkJRGV2ZWxvcCBhIGNvbW11bml0eSBvZiBzY2hvbGFycyB3aXRoIHRhbGVudCBhbmQgZXhwZXJ0aXNlIHRoYXQgd2lsbCBnYXJuZXIgcmVnaW9uYWwsIG5hdGlvbmFsIGFuZCBpbnRlcm5hdGlvbmFsIHJlY29nbml0aW9uPC9saT4KCTxsaT4KCQlDb250aW51ZSB0byBidWlsZCBhIGN1bHR1cmUgb2YgZ2xvYmFsIGF3YXJlbmVzcyB0aHJvdWdoIGludGVybmF0aW9uYWxseSBmb2N1c2VkIHRlYWNoaW5nIGFuZCBsZWFybmluZyBhY3Rpdml0aWVzIGFuZCBieSBjdWx0aXZhdGluZyBjb2xsYWJvcmF0aXZlIHJlbGF0aW9uc2hpcHMgd2l0aCBpbnRlcm5hdGlvbmFsIHByb2dyYW1zLCBoaWdoZXIgZWR1Y2F0aW9uIGluc3RpdHV0aW9ucyBhbmQgZ2xvYmFsIGNvbW11bml0aWVzIGFuZCB5ZXQgcmVtYWluIGRlZXBseSBlbnRyZW5jaGVkIGluIEluZGlhbiBjdWx0dXJhbCB2YWx1ZXMgYW5kIHVuaXZlcnNhbCByZWxpZ2lvdXMgYW5kIHNwaXJpdHVhbCBwaGlsb3NvcGhpZXM8L2xpPgo8L3VsPgo8cD4KCSZuYnNwOzwvcD4KPHA+CglTb21haXlhIFZpZHlhdmloYXIgaXMgYW4gaW5zdGl0dXRpb24gdGhhdCBpcyBwcm91ZCBvZiBpdHMgaGVyaXRhZ2UsIGdsb2JhbCBpbiB0aGUgcmVhY2ggb2YgaXRzIGlkZWFzIGFuZCB1bml2ZXJzYWwgaW4gaXRzIHNlcnZpY2UuPC9wPgo8cD4KCSZuYnNwOzwvcD4KPHA+CglUaGUgU29tYWl5YSBWaWR5YXZpaGFyIGNhbXB1cyBjb21wcmlzZXMgMzQgaW5kaXZpZHVhbCBpbnN0aXR1dGVzIGRlZGljYXRlZCB0byBBcnRzLCBTY2llbmNlcywgTWFuYWdlbWVudCwgSHVtYW5pdGllcywgUGhpbG9zb3BoaWVzIGFuZCBTb2NpYWwgU2NpZW5jZXMgYXMgaW1wb3J0YW50IGFyZWFzIG9mIHNjaG9sYXJzaGlwLCBhbmQgaXMgc3ByZWFkIGFjcm9zcyBhIDYwIGFjcmUgY29tcGxleCBpbiBWaWR5YXZhaWhhciwgaW4gbm9ydGggY2VudHJhbCBhcmVhIG9mIE11bWJhaSBhbmQgYSA5MCBhY3JlIGNvbXBsZXggaW4gU2lvbiBpbiB0aGUgaGVhcnQgb2YgTXVtYmFpLiBXZSBoYXZlIG92ZXIgMjcwMDAgc3R1ZGVudHMgYW5kIDE3MDAgdGVhY2hpbmcgc3RhZmYuIE1ham9yaXR5IG9mIG91ciBjb2xsZWdlcyBhcmUgYWZmaWxpYXRlZCB0byB0aGUgVW5pdmVyc2l0eSBvZiBNdW1iYWkuPC9wPgo8cD4KCSZuYnNwOzwvcD4KPHA+CglXZSBhbHNvIHJ1biBhIGZldyBhdXRvbm9tb3VzIHBvc3QgZ3JhZHVhdGUgY291cnNlcywgdm9jYXRpb25hbCB0cmFpbmluZyBjb3Vyc2VzIGFuZCBoaWdoIHNjaG9vbHMgd2l0aGluIHRoZSBjYW1wdXMgYXMgd2VsbCBhcyBpbiBydXJhbCBJbmRpYS48L3A+CjxwPgoJJm5ic3A7PC9wPgo8cD4KCVNvbWFpeWEgVmlkeWF2aWhhciBpcyBwcmVzaWRlZCBvdmVyIGJ5IEp1c3RpY2UgUC5OLiBCaGFnd2F0aSwgZm9ybWVyIENoaWVmIEp1c3RpY2Ugb2YgSW5kaWEuIFNocmkgU2FtaXIgU29tYWl5YSwgYSBDb3JuZWxsIFVuaXZlcnNpdHkgYW5kIEhhcnZhcmQgYWx1bW51cyBpcyB0aGUmbmJzcDsgUHJlc2lkZW50LiBCb3RoIHByb3ZpZGUgaW52YWx1YWJsZSBkaXJlY3Rpb24gdG8gYWxsIHRoZSBlZHVjYXRpb25hbCBpbnN0aXR1dGVzIHdpdGhpbiB0aGUgY2FtcHVzLjwvcD4KZAINDxYCHwVoFgICAQ8PFgIeBFRleHQFCyAyMy8wNy8yMDE0ZGQCCw9kFgICAQ8UKwACDxYEHwBnHwFmZGRkGAMFJmN0bDAwJGJvZHkkTEhTVUMkY3RsMDAkbHZFdmVudENhbGVuZGFyDxQrAA5kZGRkZGRkFCsAA2RkZAIDZGRkZgL/////D2QFGGN0bDAwJHVjRm9vdGVyJGx2U2l0ZU1hcA88KwAOAwhmDGYNAv////8PZAUiY3RsMDAkdWNIZWFkZXIkbHZMYW5ndWFnZUF2YWlsYWJsZQ88KwAOAwhmDGYNAv////8PZDPMxe11msImKybX9BDDBvZSM+0ubrEpnSl4tsfU+Ffc" />
+</div>
+
+<script type="text/javascript">
+//<![CDATA[
+var theForm = document.forms['form1'];
+if (!theForm) {
+    theForm = document.form1;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+//]]>
+</script>
+
+
+
+<script type="text/javascript">
+//<![CDATA[
+$(document).ready(function() {
+
+ });
+//]]>
+</script>
+
+<div class="aspNetHidden">
+
+	<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEWCgLupPGaDQLA2LDaDALVtozTAwLy0rXVBAKo37PNAgLDyNHiDAK5rrrfBwKnuJ16AsKhu48LAqymtYcMSBI+jfvR+NswGejXXJT5WX+k/w7lUhGecsd+Fp6aDo4=" />
+</div>
+    <!-- Admin Login Control -->        
+        <div id="AdministratorPanel">
+
+</div>
+    <!-- Admin Login Control -->
+        
+    <div id="body_container">
+        <div id="main_container">
+            <!-- Header User Control -->
+            
+<div id="header" style="margin-top: 10px;">
+    <div id="logo_div">
+        <a href='/VidyaVihar/lang/en' target="_self">
+            <img src='/VidyaVihar/Styles/Images/somaiya_logo.jpg' alt='simsr' />
+            <span id="ucHeader_lblLogoName">Somaiya Vidyavihar</span>
+        </a>
+    </div>
+    <div id="rightLinks_div">
+        <div class="trustContainer">
+            <div style="float: left; width: 450px;">
+                <div id="HeaderMessageHolder">
+                </div>
+                <div style="min-height: 40px">
+                    <div class="header_searchBox" id="SearchDiv">
+                        <input type="text" id="searchInput" class="serch_style" placeholder='Search...' />
+                        <a class="searchIcon" href="#" id="searchBtn">
+                            <img src='/VidyaVihar/Styles/Images/search_btn.jpg' alt='Search' />
+                        </a>
+                    </div>
+                    <div id="LoginDiv" class="header_searchBox displaynone">
+                        <a href="#" id="HeaderLoginButton">
+                            <img class="loginDivImg" src='/VidyaVihar/Styles/images/login_img.png'
+                                alt='Login' /></a>
+                        <input id="HeaderLoginUserName" class="loginTextbox" type="text" placeholder='User Name...' />
+                        <input id="HeaderLoginPassword" class="loginTextbox" type="password" placeholder='Password...' />
+                    </div>
+                </div>
+                <div id="header_link">
+                    <div class="headerLinks">
+                        <ul>
+                            <li id="logout" class="displaynone">
+                                <a onclick="return confirm(&#39;Are you sure you want to logout?&#39;);" id="ucHeader_lnkLogout" title="Click here to Logout" href="javascript:__doPostBack(&#39;ctl00$ucHeader$lnkLogout&#39;,&#39;&#39;)">Logout</a>
+                            </li>
+                            <li id="login" class="button">
+                                Login</li>
+                            <li>|</li>
+                            <li><a href='/VidyaVihar/simsr/common/faq/en'>
+                                FAQ</a></li>
+                            <li>|</li>
+                            <li><a href='/VidyaVihar/simsr/common/write_to_us/en'>
+                                Write To Us</a></li>
+                            <li>|</li>
+                            <li><a href='/VidyaVihar/simsr/common/contact_us/en' target="_self">
+                                Contact Us</a></li>
+                            <li>|</li>
+                            <li id="search" class="button">
+                                Search</li>
+                            <li>|</li>
+                            <li class="vidyaLink"><a href='/VidyaVihar/default.aspx'>
+                                Vidyavihar</a></li>
+                            <li class="vidyaLink">|</li>
+                            <li><a href='/VidyaVihar/simsr'>
+                                Home</a></li>
+                        </ul>
+                    </div>
+                    
+                </div>
+            </div>
+            <div id="somaiya_trust_logo">
+                <img src='/VidyaVihar/Styles/images/trust_logo.jpg' alt='Somaiya Trust' />
+            </div>
+        </div>
+        <div class="DivSocialLinkImgTop">
+            <a href="http://twitter.com/SomaiyaVidyavih" target="_blank" class="TwitterLink">
+                <img src='/VidyaVihar/styles/images/SVV_twitter_icon.jpg' border="0"
+                    alt="Twitter" />
+            </a><a href="https://www.facebook.com/pages/Somaiya-Vidyavihar/122977847737512" target="_blank"
+                class="FacebookLink">
+                <img src='/VidyaVihar/styles/images/SVV_facebook_icon.jpg' border="0"
+                    alt="Facebook" />
+            </a><a href="http://www.youtube.com/somaiyavidyavihar" target="_blank" class="YouTubeLink">
+                <img src='/VidyaVihar/styles/images/SVV_youtube_icon.jpg' border="0"
+                    alt="You Tube" />
+            </a><a href="https://plus.google.com/112416186702648671712" target="_blank" class="GooglePlusLink">
+                <img src='/VidyaVihar/styles/images/google_plus_icon.jpg' border="0"
+                    alt="Google Plus" />
+            </a><a href="http://somaiyavidyaviharblogs.blogspot.in/" target="_blank" class="BlogLink">
+                <img src='/VidyaVihar/styles/images/blogger.jpg' border="0px" alt="Blogger"
+                    width="24px" height="23px" />
+            </a>
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript">
+    $(function() {
+
+        if (SiteDTO.ID == 1) {
+            //$('#header_link > ul li').eq(10).remove();
+            $('.vidyaLink').hide();
+        }
+
+        if ('0' != 0) {
+            $('#login').remove();
+        }
+        else {
+            $('#logout').remove();
+        }
+
+        $('#login').click(function(e) {
+            $('#SearchDiv').hide();
+            $('#LoginDiv').slideDown("slow");
+        });
+
+        $('#search').click(function(e) {
+            $('#LoginDiv').hide();
+            $('#SearchDiv').slideDown("slow");
+        });
+        $('#searchBtn').click(function(e) {
+            e.preventDefault();
+            CallSearch();
+        });
+
+        $('#searchInput').keypress(function(e) {
+            code = e.keyCode ? e.keyCode : e.which;
+            if (code.toString() == 13) {
+                CallSearch();
+            }
+        });
+
+        $('#HeaderLoginPassword').bind('keypress', function(e) {
+            code = e.keyCode ? e.keyCode : e.which;
+            if (code.toString() == 13) {
+                LoginAuthenticate();
+            }
+        });
+
+        $('#HeaderLoginButton').click(function(e) {
+            LoginAuthenticate();
+        });
+
+    });
+
+    function LoginAuthenticate() {
+
+        var userNameObj = $('#HeaderLoginUserName'), passwordObj = $('#HeaderLoginPassword');
+
+        if (userNameObj.val() == "") {
+            showError('HeaderMessageHolder', 'Enter User Name');
+            return;
+        }
+
+        if (passwordObj.val() == "") {
+            showError('HeaderMessageHolder', 'Enter Password');
+            return;
+        }
+
+        showProcess('HeaderMessageHolder', 'Validating Login Please Wait...');
+
+        var DTO = { 'username': userNameObj.val(), 'password': passwordObj.val() }, url = ResolveUrl("~/ajax/ajaxCall.aspx/Authenticate");
+
+        callAjax({
+            Type: "JSON",
+            DataObject: DTO,
+            AjaxUrl: url,
+            CallBack: function(data) {
+
+                var response = data.split("|");
+                if (response[0] == 'success') {
+                    window.location.href = response[1];
+                }
+                else {
+                    showError('HeaderMessageHolder', 'User Not Found');
+                }
+
+            },
+            ReturnJson: true
+        });
+    }
+
+    function CallSearch() {
+        window.location = ResolveUrl("~/" + SiteDTO.Allias + "/search/") + $('#searchInput').val();
+    };
+</script>
+
+
+            <!-- Header User Control -->
+
+            <!-- Menu User Control -->
+            
+
+<div class="divSpacer">&nbsp;</div>
+
+<!-- Main Menu -->
+<div id='MainMenu'>
+    <div id="ucMenu_TopMenu" class="topMenu"><ul><li style= 'width:100px; font-size:12px;margin-right:5px;' ><a href='/VidyaVihar/simsr/About_Us/genesis' target='_self'>About Us</a></li><li style= 'width:100px; font-size:12px;margin-right:5px;' ><a href='/VidyaVihar/simsr/Programmes/Doctoral' target='_self'>Programmes</a></li><li style= 'width:102px; font-size:12px;margin-right:5px;' ><a href='/VidyaVihar/simsr/Admission/Doctoral' target='_self'>Admission</a></li><li style= 'width:160px; font-size:12px;margin-right:5px;' ><a href='/VidyaVihar/simsr/MDP_Consultancy/Management_Development_Program' target='_self'>MDP & Consultancy</a></li><li style= 'width:97px; font-size:12px;margin-right:5px;' ><a href='/VidyaVihar/simsr/Placements/Executive_Placements' target='_self'>Placements</a></li><li style= 'width:100px; font-size:12px;margin-right:5px;' ><a href='/VidyaVihar/simsr/Research_and_Pub/Books' target='_self'>Res. & Pub.</a></li><li style= 'width:97px; font-size:12px;margin-right:5px;' ><a href='/VidyaVihar/simsr/Alumni_Activities/' target='_self'>Alumni Act.</a></li><li style= 'width:65px; font-size:12px;' ><a href='/VidyaVihar/simsr/connects/events_all/up_coming' target='_self'>Connect</a></li></ul></div>
+    <!-- Sub Menu -->
+    <div id="ucMenu_SubMenu" class="SubMenu displaynone"><div class='SubMenuChild'><ul><li style= 'width:100px; font-size:12px;margin-right:5px;' ><a href='/VidyaVihar/simsr/About_Us/genesis' target='_self'>Genesis</a></li><li style= 'width:100px; font-size:12px;margin-right:5px;' ><a href='/VidyaVihar/simsr/About_Us/The_Institute' target='_self'>The Institute</a></li><li style= 'width:100px; font-size:12px;margin-right:5px;' ><a href='/VidyaVihar/simsr/About_Us/Vision_and_Mission' target='_self'>Vision,Mission</a></li><li style= 'width:100px; font-size:12px;margin-right:5px;' ><a href='/VidyaVihar/simsr/academic/faculty/directory/0?lang=' target='_self'>Faculty</a></li><li style= 'width:100px; font-size:12px;margin-right:5px;' ><a href='/VidyaVihar/simsr/About_Us/Organization_and_Governance' target='_self'>Org. and Gov.</a></li><li style= 'width:100px; font-size:12px;margin-right:5px;' ><a href='/VidyaVihar/simsr/About_Us/International_Linkages' target='_self'>Int. Linkages</a></li><li style= 'width:100px; font-size:12px;margin-right:5px;' ><a href='/VidyaVihar/simsr/About_Us/Life at SIMSR' target='_self'>Life at SIMSR</a></li></ul></div><div class='SubMenuChild'><ul><li style= 'width:100px; font-size:12px;margin-right:5px;' ><a href='/VidyaVihar/simsr/Programmes/Doctoral' target='_self'>Doctoral</a></li><li style= 'width:100px; font-size:12px;margin-right:5px;' ><a href='/VidyaVihar/simsr/Programmes/PGDM_Exec' target='_self'>PGDM(Exec)</a></li><li style= 'width:100px; font-size:12px;margin-right:5px;' ><a href='/VidyaVihar/simsr/Programmes/FT_PGDM' target='_self'>FT PGDM</a></li><li style= 'width:100px; font-size:12px;margin-right:5px;' ><a href='/VidyaVihar/simsr/Programmes/FT_MASTER' target='_self'>FT MASTERS</a></li><li style= 'width:100px; font-size:12px;margin-right:5px;' ><a href='/VidyaVihar/simsr/Programmes/PART_TIME_MASTERS' target='_self'>PART TIME MASTERS</a></li></ul></div><div class='SubMenuChild'><ul><li style= 'width:102px; font-size:12px;margin-right:5px;' ><a href='/VidyaVihar/simsr/Admission/Doctoral' target='_self'>Doctoral</a></li><li style= 'width:102px; font-size:12px;margin-right:5px;' ><a href='/VidyaVihar/simsr/Admission/PGDM_Exec' target='_self'>PGDM(Exec)</a></li><li style= 'width:102px; font-size:12px;margin-right:5px;' ><a href='/VidyaVihar/simsr/Admission/FT_PGDM' target='_self'>FT PGDM</a></li><li style= 'width:102px; font-size:12px;margin-right:5px;' ><a href='/VidyaVihar/simsr/Admission/FT_MASTERS' target='_self'>FT MASTERS</a></li><li style= 'width:102px; font-size:12px;margin-right:5px;' ><a href='/VidyaVihar/simsr/Admission/PART_TIME_MASTERS' target='_self'>PART TIME MASTERS</a></li></ul></div><div class='SubMenuChild'><ul><li style= 'width:160px; font-size:12px;margin-right:5px;' ><a href='/VidyaVihar/simsr/MDP_Consultancy/Management_Development_Program' target='_self'>MDP</a></li><li style= 'width:160px; font-size:12px;margin-right:5px;' ><a href='/VidyaVihar/simsr/MDP_Consultancy/Consultancy_Services' target='_self'>Consultancy Services</a></li></ul></div><div class='SubMenuChild'><ul><li style= 'width:97px; font-size:12px;margin-right:5px;' ><a href='/VidyaVihar/simsr/Placements/Executive_Placements' target='_self'>Executive</a></li><li style= 'width:97px; font-size:12px;margin-right:5px;' ><a href='/VidyaVihar/simsr/Placements/Summer_Placements' target='_self'>Summer</a></li><li style= 'width:97px; font-size:12px;margin-right:5px;' ><a href='/VidyaVihar/simsr/Placements/Placement_2013' target='_self'>Placement - 2013</a></li></ul></div><div class='SubMenuChild'><ul><li style= 'width:100px; font-size:12px;margin-right:5px;' ><a href='/VidyaVihar/simsr/Research_and_Pub/Books' target='_self'>Books</a></li><li style= 'width:100px; font-size:12px;margin-right:5px;' ><a href='/VidyaVihar/simsr/Research_and_Pub/Cases_Published' target='_self'>Cases Published</a></li><li style= 'width:100px; font-size:12px;margin-right:5px;' ><a href='/VidyaVihar/simsr/Research_and_Pub/Papers_Presented' target='_self'>Papers Presented</a></li><li style= 'width:100px; font-size:12px;margin-right:5px;' ><a href='/VidyaVihar/simsr/Research_and_Pub/Research' target='_self'>Research</a></li><li style= 'width:100px; font-size:12px;margin-right:5px;' ><a href='/VidyaVihar/simsr/Research_and_Pub/SYNERGY' target='_self'>SYNERGY</a></li><li style= 'width:100px; font-size:12px;margin-right:5px;' ><a href='/VidyaVihar/simsr/Research_and_Pub/BPR' target='_self'>BPR</a></li></ul></div><div class='SubMenuChild'><ul><li style= 'width:97px; font-size:12px;margin-right:5px;' ><a href='/VidyaVihar/simsr/Alumni_Activities/Alumni_Activities_simsr' target='_self'>Alumni Actv</a></li><li style= 'width:97px; font-size:12px;margin-right:5px;' ><a href='/VidyaVihar/simsr/Alumni_Activities/Alumni_Comm' target='_self'>Alumni Comm</a></li><li style= 'width:97px; font-size:12px;margin-right:5px;' ><a href='/VidyaVihar/simsr/Alumni_Activities/Connect with us' target='_self'>Connect us</a></li><li style= 'width:97px; font-size:12px;margin-right:5px;' ><a href='/VidyaVihar/simsr/Alumni_Activities/Register' target='_self'>Register</a></li></ul></div><div class='SubMenuChild'><ul><li style= 'width:65px; font-size:12px;' ><a href='/VidyaVihar/simsr/connects/events_all/up_coming' target='_self'>Events</a></li><li style= 'width:65px; font-size:12px;' ><a href='/VidyaVihar/simsr/common/directories' target='_self'>Directories</a></li><li style= 'width:65px; font-size:12px;' ><a href='/VidyaVihar/simsr/connects/events_all/up_coming/Anti_Ragging' target='_self'>Anti Ragging</a></li><li style= 'width:65px; font-size:12px;' ><a href='/VidyaVihar/simsr/connects/events_all/up_coming/Grievances' target='_self'>Grievances</a></li><li style= 'width:65px; font-size:12px;' ><a href='/VidyaVihar/simsr/connects/events_all/up_coming/Women Empowerment' target='_self'>Women Empowerment</a></li><li style= 'width:65px; font-size:12px;' ><a href='/VidyaVihar/simsr/connects/gallery/album/all' target='_self'>Gallery</a></li><li style= 'width:65px; font-size:12px;' ><a href='/VidyaVihar/simsr/academic/programs/en' target='_self'>Programs</a></li><li style= 'width:65px; font-size:12px;' ><a href='/VidyaVihar/simsr/academic/department' target='_self'>Departments</a></li><li style= 'width:65px; font-size:12px;' ><a href='/VidyaVihar/simsr/connects/whats_happening/careers' target='_self'>Careers</a></li></ul></div></div>
+</div>
+
+<script type="text/javascript">
+    $(function () {
+        var overSubmenu = false;
+        var overTopMenu = false;
+        var timeoutID;
+        var closing = false;
+        $("[id$='TopMenu']").hover(
+            function () {
+                // over         
+                overTopMenu = true;
+                window.clearTimeout(timeoutID);
+                if (closing) {
+                    $("[id$='SubMenu']").stop(true, true).show('slide', { direction: "up" }, 500);
+                    closing = false;
+                } else {
+                    if ($("[id$='SubMenu']").css('display') == 'none')
+                        $("[id$='SubMenu']").show('slide', { direction: "up" }, 500);
+                }
+            },
+            function () {
+                // out  
+                overTopMenu = false;
+                timeoutID = window.setTimeout(closeMenu, 100);
+            }
+
+        );
+        $("[id$='SubMenu']").hover(
+            function () {
+                // over  
+                overSubmenu = true;
+                window.clearTimeout(timeoutID);
+                if (closing) {
+                    $("[id$='SubMenu']").stop(true, true).show('slide', { direction: "up" }, 100);
+                    closing = false;
+                }                
+            },
+            function () {
+                // out               
+                overSubmenu = false;
+                timeoutID = window.setTimeout(closeMenu, 100);
+            }
+
+        );
+
+        function closeMenu() {
+            window.clearTimeout(timeoutID);
+            if (!overSubmenu && !overTopMenu) {
+                closing = true;
+                $("[id$='SubMenu']").stop(true, true).hide('slide', { direction: "up" }, 100, function () {
+                    closing = false;
+                    $(this).removeAttr('style');
+                });
+            }
+        }
+    });
+</script>
+
+            <!-- Menu User Control -->
+
+            <div class="content">
+                <!-- Bread Crumb Control -->
+                
+
+<div id="BreadCrumbDiv">
+    <div id="BreadCrumb_heading_text" class="hiding_font"><a href='#' id='btn_breadTitle'>Genesis</a></div>
+    <div id="BreadCrumb_foundation_bottom_link"><ul></ul></div>
+</div>
+
+                <!-- Bread Crumb Control -->
+                
+
+    
+
+<div id="body_TopBanner_WebsiteWithLogoBannerHolder">
+	
+    <div id='innerLogoBanner' class='instBanner'>
+        <div class='banner_logo'>
+            <img src="/VidyaVihar/media/images/crop33de9f36-7cbe-4cd7-83f1-f3ba1c8ce57e.jpg" id="body_TopBanner_imgInnerLogo" alt="K J Somaiya Institute of Management Studies and Research" style="width:105px;height:150px;" />
+        </div>
+        <div class='banner_logo_img'>
+            <img src="/VidyaVihar/media/images/SVV_Somaiya_SIMSR_Genesis.jpg" id="body_TopBanner_imgInnerLogoTop" alt="SVV_Somaiya_SIMSR_Genesis" />
+        </div>
+        <div class='bannerSeperator'></div>
+        <div class='instNameStrip svv_banner'>
+            <div id="body_TopBanner_instName_Logo">K J Somaiya Institute of Management Studies and Research</div>
+        </div>
+    </div>
+
+</div>
+
+
+
+    <div class="lhsAPU" id="LHSAPU">
+        
+
+<!-- Event Calendar -->
+<div id="ucl_EventCalendar" class="calendar jcarousel-event">
+    
+            <ul id="eventCarousel" class="displaynone">
+                
+            <li>
+                <div class="calendarMainDive">
+                    <div class="calendarDateDive svv_heading">
+                        18
+                        <span>Sep, 2014</span>
+                    </div>
+                    <div class="calendartextDive">     
+                        <span class="displaynone calendarRedirectUrl">/VidyaVihar/simsr/connects/events/374/marketing_analytics_for_developing_effective_marketing_strategies</span>           
+                        Marketing Analytics for Developing Effective Marke.....                
+                    </div>
+                </div>
+            </li>
+        
+            <li>
+                <div class="calendarMainDive">
+                    <div class="calendarDateDive svv_heading">
+                        22
+                        <span>Jan, 2015</span>
+                    </div>
+                    <div class="calendartextDive">     
+                        <span class="displaynone calendarRedirectUrl">/VidyaVihar/simsr/connects/events/348/international_hr_conference</span>           
+                        International HR Conference                
+                    </div>
+                </div>
+            </li>
+        
+            <li>
+                <div class="calendarMainDive">
+                    <div class="calendarDateDive svv_heading">
+                        24
+                        <span>Feb, 2015</span>
+                    </div>
+                    <div class="calendartextDive">     
+                        <span class="displaynone calendarRedirectUrl">/VidyaVihar/simsr/connects/events/372/10th_simsr_global_marketing_conference</span>           
+                        10th SIMSR Global Marketing Conference                
+                    </div>
+                </div>
+            </li>
+        
+            </ul>
+        
+    <div class="calendarEvent svv_heading" id="eventRedirect" rel="/VidyaVihar/simsr/connects/events_all/up_coming"> 
+        EVENTS 
+        <br />
+        <span>(click to view all)</span>                  
+    </div>
+</div>            
+<!-- Event Calendar --> 
+
+
+
+    </div>
+
+    <div id="body_layoutPlaceHonder">
+
+<!-- Open Content Html -->
+<div id="main_content">
+    <div id="text_container">
+        <div id="body_UserControlLayout_main_text_div" class="content_text content_full_length"><p>
+	&nbsp;</p>
+<p>
+	Somaiya Vidyavihar was established by Padmabhushan Late Shri K J Somaiya in 1959. An Entrepreneur, Philanthropist and a Visionary, he firmly believed that modern education had to have its roots in strong values. This underlying theme and legacy of Somaiya Vidyavihar was continued and strengthened by the late Dr S K Somaiya.<br />
+	<br />
+	Somaiya Vidyavihar aims to provide for its students, meaningful and relevant education that emphasizes both the liberal and professional aspects of higher education, steeped in rich Indian Culture and heritage and rooted in universal religious philosophies of the world.</p>
+<p>
+	<br />
+	Within this context, Somaiya Vidyavihar provides educational opportunities to all qualified students to discover and disseminate knowledge in order to serve communities around the world. We firmly believe in imparting education that teaches how to live and how to make a living.</p>
+<p>
+	&nbsp;</p>
+<p>
+	As a centre of learning dedicated to education, research and service, Somaiya Vidyavihar combines experiential learning with rigorous scholarship in all our educational programs to produce educated learners who are awake to new, challenging possibilities. We build on our existing strengths, including engineering, biomedical sciences, and professional education, and pursue productive partnerships with other outstanding institutions.</p>
+<p>
+	&nbsp;</p>
+<p>
+	We are committed, foremost to academic excellence and intellectual competence. Freedom of expression and inquiry, exchange of ideas, cultural activities, intensive classroom instruction, and numerous informal events of the Somaiya Vidyavihar community combine to ensure that each student receives a thorough education in tune with the global realities of a rapidly evolving world.</p>
+<p>
+	&nbsp;</p>
+<p>
+	Somaiya Vidyavihar recognizes that education is attained, in part, through the activities of the students themselves. It strives to provide and maintain a corps of scholars, lecturers, and educators dedicated to:</p>
+<p>
+	&nbsp;</p>
+<ul>
+	<li>
+		Provide a well-rounded liberal arts education with a concentration in either the science, the humanities, or the professions</li>
+	<li>
+		Provide service to the communities by increasing their ability to make practical application of knowledge</li>
+	<li>
+		Develop conceptual thinking ability and nurture the inquiring mind of each student</li>
+	<li>
+		Encourage optimum physical development and the safeguarding of health</li>
+	<li>
+		Provide an important engine for research and economic development</li>
+	<li>
+		Offer an array of master&rsquo;s and doctoral programs in areas of importance to the social and economic development of the society and the communities</li>
+	<li>
+		Develop a community of scholars with talent and expertise that will garner regional, national and international recognition</li>
+	<li>
+		Continue to build a culture of global awareness through internationally focused teaching and learning activities and by cultivating collaborative relationships with international programs, higher education institutions and global communities and yet remain deeply entrenched in Indian cultural values and universal religious and spiritual philosophies</li>
+</ul>
+<p>
+	&nbsp;</p>
+<p>
+	Somaiya Vidyavihar is an institution that is proud of its heritage, global in the reach of its ideas and universal in its service.</p>
+<p>
+	&nbsp;</p>
+<p>
+	The Somaiya Vidyavihar campus comprises 34 individual institutes dedicated to Arts, Sciences, Management, Humanities, Philosophies and Social Sciences as important areas of scholarship, and is spread across a 60 acre complex in Vidyavaihar, in north central area of Mumbai and a 90 acre complex in Sion in the heart of Mumbai. We have over 27000 students and 1700 teaching staff. Majority of our colleges are affiliated to the University of Mumbai.</p>
+<p>
+	&nbsp;</p>
+<p>
+	We also run a few autonomous post graduate courses, vocational training courses and high schools within the campus as well as in rural India.</p>
+<p>
+	&nbsp;</p>
+<p>
+	Somaiya Vidyavihar is presided over by Justice P.N. Bhagwati, former Chief Justice of India. Shri Samir Somaiya, a Cornell University and Harvard alumnus is the&nbsp; President. Both provide invaluable direction to all the educational institutes within the campus.</p>
+</div>
+    </div>
+</div></div>
+
+    <div id="ContentEditorlayoutPlaceHonder" class="displaynone" style="float: left;">
+        <div id="body_HTMLEditorPlaceHolder">
+
+</div>
+    </div>
+
+    <div id="body_NotificationHolder">
+
+</div>
+
+    <input type="hidden" name="ctl00$body$HiddenAllias" id="body_HiddenAllias" value="simsr" />
+    <input type="hidden" name="ctl00$body$HiddenMenu" id="body_HiddenMenu" value="about_us" />
+    <input type="hidden" name="ctl00$body$HiddenLevel1" id="body_HiddenLevel1" value="genesis" />
+    <input type="hidden" name="ctl00$body$HiddenLevel2" id="body_HiddenLevel2" />
+    <input type="hidden" name="ctl00$body$HiddenMenuID" id="body_HiddenMenuID" value="630" />
+    <input type="hidden" name="ctl00$body$HiddenLevel1ID" id="body_HiddenLevel1ID" value="631" />
+    <input type="hidden" name="ctl00$body$HiddenLevel2ID" id="body_HiddenLevel2ID" value="0" />
+
+    <script type="text/javascript">               
+        var IS_DEFAULT_PAGE = false;
+        var PageMenuDTO = {
+            'MENU_ID'           : '630',
+            'MENU'              : 'about_us',
+            'LEVEL1_ID'         : '631',
+            'LEVEL1'            : 'genesis',
+            'LEVEL2_ID'         : '0',
+            'LEVEL2'            : '',
+            'PAGEID'            : '587',
+            'CURRENT_MENU_ID'   : '631',
+            'LANGUAGE_ID'       : '1',
+            'LANGUAGE'          : 'en',
+            'IS_PUBLISH_PAGE'   : 'True',
+            'MENU_URL'          : ''
+        };
+
+        var selectedlanguage;
+        switch (parseInt(PageMenuDTO.LANGUAGE_ID)) {
+            case 2:
+                selectedlanguage = "hindi";
+                break;
+
+            case 3:
+                selectedlanguage = "gujarati";
+                break;
+
+            case 4:
+                selectedlanguage = "marathi";
+                break; 
+                
+            default:
+                selectedlanguage = "english";
+                break; 
+        }
+
+        var ControlJson = [];
+    </script>
+
+    <div id="PublishConfirmation" class="displaynone">
+        <span>Page published successfully</span>
+    </div>
+
+    <div id="ErrorMessagePlaceHolder" class="displaynone">
+        <span>There was an error processing your request.</span>
+        
+    </div>
+    
+
+            </div>
+
+            <!-- Footer User Control -->
+            
+
+<script type="text/javascript" language="javascript">
+    $(document).ready(function() {
+
+        $("#btnSubscribe").click(function() {
+            if ($("#ucFooter_txtSubscribe").val() == "") {
+                showSubError("Enter your email id");
+                return false;
+            }
+            else if ($("#ucFooter_txtSubscribe").val() != "") {
+                var reg = /^([A-Za-z0-9_\-\.])+\@([A-Za-z0-9_\-\.])+\.([A-Za-z]{2,4})$/;
+                var address = $("#ucFooter_txtSubscribe").val();
+                if (reg.test(address) == false) {
+                    showSubError('Enter Valid Email id');
+                    return false;
+                }
+                else {
+                    $("#errorNewslwtter").hide();
+                    submiSubscribetData();
+                    window.location.href = "#DivSubscribe";
+                }
+            }
+        });
+    });
+
+    function showSubError(strMsg) {
+        $("#errorNewslwtter").show('slow');
+        $("#errorNewslwtter").empty();
+        $("#errorNewslwtter").removeClass('success').addClass('error');
+        $("#errorNewslwtter").html(strMsg);
+    }
+
+    function showSubSuccess(strMsg) {
+        $("#errorNewslwtter").show('slow');
+        $("#errorNewslwtter").empty();
+        $("#errorNewslwtter").removeClass('error').addClass('success');
+        $("#errorNewslwtter").html(strMsg);
+    }
+
+    function submiSubscribetData() {
+        var user = $('#ucFooter_txtSubscribe').val();
+
+        $.ajax({
+            type: "POST",
+            url: '/VidyaVihar/ajax/ajaxCall.aspx',
+            data: "email=" + user + "&action=Subscribe",
+            cache: false,
+            success: function(result) {
+                if (result == "success") {
+                    showSubSuccess('Thank you for subscribing to our newsletter');
+                    $('#ucFooter_txtSubscribe').val('');
+                    return true;
+                } else {
+                    showSubError('Record Exists');
+                    $('#ucFooter_txtSubscribe').val('');
+                    return true;
+                }
+                $('#ucFooter_txtSubscribe').val('');
+            }
+        });
+    }
+
+</script>
+
+<div class="footer">
+    <div class="divSpacer">
+        &nbsp;</div>
+    <div class="hrule brownbg fullWidth bottomSpacer">
+        <hr />
+    </div>
+    <div style="width: 100%;">
+        <div class="DivSubscribe">
+            <div class="subscribeHeader">
+                Subscribe to our Newsletter
+            </div>
+            <br />
+            <div class="SubscribeText">
+                Subscribe to our weekly Newsletter to get the most of our news
+            </div>
+            <div id="errorNewslwtter" style="width: 283px; float: right;">
+            </div>
+            <div class="subscribeContainer">
+                <input name="ctl00$ucFooter$txtSubscribe" type="text" id="ucFooter_txtSubscribe" class="subscribeTextbox" />
+                <a id="btnSubscribe" href="#" class="subscribeButton">
+                    Subscribe</a>
+            </div>
+        </div>
+        <div class="DivSocialLinkImg">
+            <a href="http://twitter.com/SomaiyaVidyavih" target="_blank" class="TwitterLink">
+                <img src='/VidyaVihar/Styles/Images/SVV_twitter.jpg' alt="Twitter" />
+            </a><a href="https://www.facebook.com/pages/Somaiya-Vidyavihar/122977847737512" target="_blank"
+                class="FacebookLink">
+                <img src='/VidyaVihar/Styles/Images/SVV_facebook.jpg' alt="Facebook" />
+            </a><a href="http://www.youtube.com/somaiyavidyavihar" target="_blank" class="YouTubeLink">
+                <img src='/VidyaVihar/Styles/Images/SVV_youtube.jpg' alt="Youtube" />
+            </a><a href="https://plus.google.com/112416186702648671712" target="_blank" class="GooglePlusLink">
+                <img src='/VidyaVihar/styles/images/google-plus-icon-37-X-37.jpg'
+                    border="0" alt="Google Plus" />
+            </a><a href="http://somaiyavidyaviharblogs.blogspot.in/" target="_blank" class="BlogLink">
+                <img src='/VidyaVihar/styles/images/blogger.jpg' border="0px" alt="Blogger"
+                     />
+            </a>
+        </div>
+        <div id="browserDiv" style="float: left;">
+            Best viewed in
+            <a href="http://www.microsoft.com/download/en/details.aspx?id=43" target="_blank">
+                Internet Explorer
+                8+ </a>| <a href="http://www.mozilla.com/en-US/firefox/fx/" target="_blank">
+                    Firefox
+                    3.5+</a> | <a href="http://www.google.com/chrome/" target="_blank">
+                        Chrome</a>
+        </div>
+        <div id="essDiv" style="float: right; margin-top: 10px;">
+            <a class="group_heading" style="color: #A91721;" target="_blank" href="http://223.30.145.165/vvhr">
+                ESS Login</a>
+        </div>
+    </div>
+    <div class="Sitemap">
+        
+    </div>
+    <div class="CopyrightDiv">
+        <div class="CopyrightName">
+            <span>&copy
+                2014
+                somaiya vidyavihar</span>
+        </div>
+        <div class="links">
+            <a href='/VidyaVihar/simsr/common/legal_notice' target="_self">
+                Legal Notice&nbsp;</a> | <a href='/VidyaVihar/simsr/common/usage_policy'
+                    target="_self">&nbsp;Usage Policy</a>
+        </div>
+    </div>
+</div>
+
+            <!-- Footer User Control -->
+
+        </div>        
+    </div>
+    </form>
+
+    
+    <script type="text/javascript">
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-28288822-1']);
+        _gaq.push(['_trackPageview']);
+
+        (function () {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+    </script>
+    
+</body>
+</html>
+
